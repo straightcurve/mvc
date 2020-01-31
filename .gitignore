@@ -3,3 +3,4 @@ Logs
 **/*.csproj
 Library
 obj
+Temp

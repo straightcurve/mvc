@@ -25,6 +25,6 @@ public class CubeController : MonoBehaviour
         var direction = new Vector3();
         direction.x = keys[3] ? 1 : keys[2] ? -1 : 0;
         direction.y = keys[0] ? 1 : keys[1] ? -1 : 0;
-        return direction;
+        return direction.normalized;
     }
 }
